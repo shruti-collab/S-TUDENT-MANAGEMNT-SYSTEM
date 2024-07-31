@@ -1,0 +1,41 @@
+how to add comments in html
+<!-- this is a comment-->
+
+<tr>
+    <th style= "padding:20px; font-size:15px;">username</th>
+    <th style= "padding:20px; font-size:15px;">email</th>
+    <th style= "padding:20px; font-size:15px;">phone</th>
+    <th style= "padding:20px; font-size:15px;">password</th>
+    </tr>
+
+    <?php
+
+$host="localhost";
+$user="root";
+$password="null";
+$db="schoolproject";
+
+$data= mysqli_connect($host,$user,$password,$db);
+
+$sql="SELECT * FROM user";
+$result= mysqli_query($data,$sql);
+
+?>
+
+
+$result=mysqli_query($data,$sql);
+
+<?php
+while($info=$result->fetch_assoc())
+{
+
+
+
+?>
+
+
+
+
+login page gradient css
+
+

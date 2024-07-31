@@ -1,0 +1,290 @@
+{
+    % static"*{
+    padding:0;
+    margin:0;
+    
+}
+        
+        
+        
+       
+        
+          
+        
+
+nav{
+    position:fixed;
+    background-color:#de3456;
+    height:70px;
+    width:100%;
+    z-index:1;
+
+}
+.logo{
+    font-size: 25px;
+    position:relative;
+    left:5%;
+    color:white;
+    font-weight: bold;
+    line-height: 70px;
+}
+ul{
+    float:right;
+    position:relative;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin:0 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+.main_img{
+    width:100%;
+    height:700px;
+
+}
+.section{
+    padding-top: 70px;
+}
+.img_text{
+    position:absolute;
+    top:20%;
+    left:30%;
+    color:white;
+    background-color:midnightblue;
+    padding-right:20px;
+    padding-left:20px;
+    font-size: 70px;
+
+}
+.welcome_img{
+    width:100%;
+    height:250px;
+
+
+}
+.container{
+    padding:70px;
+}
+
+.label_text{
+    display:inline-block;
+    width : 100px;
+    text-align:right ;
+    padding-right : 10px;
+}
+.input_deg{
+    border-radius:25px;
+    width:30%;
+    height:40px;
+    border:1px solid black;
+
+}
+.ECE{
+    
+    width:100%;
+    height:250px;
+}
+
+.EE{
+    
+    width:100%;
+    height:250px;
+}
+
+.CSE{
+    
+    width:100%;
+    height:250px;
+}
+
+.input_txt{
+    border-radius:25px;
+    width:30%;
+    height:120px;
+    border:1px solid black;
+
+}
+  #submit
+  {
+    position:relative;
+    width:15%;
+    left:5%;
+  }
+  footer{
+    background-color: black;
+    height:70px;
+    width:100%;
+  }  
+
+  .footer_text{
+    text-align:center;
+    color:white;
+    top:20%;
+    position:relative;
+  }
+  .adm{
+    padding-top: 30px;
+    padding-bottom:30px ;
+  }
+
+
+
+
+
+
+
+
+
+  .background{
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    background:linear-gradient(120deG,#264653,#287271,#2A9D8F,#E9C46A,#F4A261,#E76F51);
+    height:100vh;
+    overflow:hidden;  
+    line-gap-override:(120deg,#2980b9,#8e44ad); 
+
+  }
+  .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    background:white;
+    border-radius: 10px;
+}
+.center h1{
+    text-align:center;
+    padding:0 0 20px 0;
+    border-bottom:1px solid silver;
+
+
+}
+.center form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+}
+form .txt_field{
+    position:relative;
+    border-bottom:2px solid #adadad;
+    margin:30px 0;
+}
+.txt_field input{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size:16px;
+    border:none;
+    background:none;
+    outline:none;
+    
+
+}
+.txt_field label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    color:#adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition:.5s;
+}
+.txt_field span::before{
+    content: '';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:0%;
+    height:2px;
+    background:#2691d9;
+    transition:.5s;
+
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top:-5px;
+    color:#2691d9;
+}
+.txt_field input:focus~span::befoe,
+.txt_field input:valid~span::before{
+    width:100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color:#a6a6a6;
+    cursor:pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width:100%;
+    height:50px;
+    border:1px solid;
+    background: #2691d9;
+    border-radius:25px;
+    font-size:18px;
+    color:#e9f4fb;
+    font-weight:700;
+    cursor:pointer;
+    outline:none;
+    
+
+}
+input[type="submit"]:hover{
+    border-color:#2980b9;
+    transition:.5s;
+
+
+}
+.signup_link{
+    margin:30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    }
+    .signup_link a{
+        color:#2691d9;
+        text-decoration: none;
+
+
+    }
+    .signup_link a:hover{
+        text-decoration: underline;
+    }
+
+    .base{
+
+        color: #666666;
+
+    }
+    .button{
+
+        .signup_link{
+            margin:30px 0;
+            text-align: center;
+            font-size: 16px;
+            color: #666666;
+            }
+            .signup_link a{
+                color:#2691d9;
+                text-decoration: none;
+        
+        
+            }
+            .signup_link a:hover{
+                text-decoration: underline;
+            }
+    }" %}
+
+
